@@ -1,0 +1,127 @@
+body{
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, #1e1e42, #131314);
+    color:#fff;
+}
+hr {
+  height: 1px;
+  border: 0;
+  background-color: #333;
+  margin: 1em 0;
+}   
+
+/*navigation bar*/
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 240px;
+}
+
+.title {
+  font-size:26px;
+  font-weight:bold;  
+  color:#fff;
+  text-decoration:none;
+}
+
+.links a {
+    text-decoration: none;
+    color:#fff;
+    padding:10px;
+}
+.button a{
+    text-decoration:none;
+    background-color: rgb(49, 49, 233);
+    padding:10px 12px;
+    border-radius:0.3em;
+    color:#fff;
+}
+
+/*hero section*/
+.hero {
+    text-align:center;
+    margin-top:60px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.hero h2{
+    font-size:50px;
+}
+.hero textarea {
+    width:100%;
+    line-height: 1.5;
+    letter-spacing: 1px;;
+    padding-block:10px;
+    margin-top:24px;
+    border-radius:0.8em;
+    border-color:rgb(49, 49, 233);
+    background:radial-gradient(circle, #505091, #2a2a2e);
+    color:white;
+}
+ .hero textarea:focus{
+    outline: none;
+ }
+.hero button{
+    background-color:rgb(49,49,233);
+    border:none;
+    border-radius:0.3em;
+    padding:10px 20px;
+    margin-top:10px;
+    color:#fff;
+    cursor:pointer;
+}
+.prompt {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+/* Sign up */
+.form-container{
+    text-align:left;
+    border:1px solid white;
+    margin:auto;
+    padding:10px 2px;
+    width:450px;
+    border-radius:0.8em;
+    border:1px solid #505091;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+.form{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin:20px 0;
+}
+
+.form-container input {
+    background:radial-gradient(circle, #505091, #2a2a2e);
+    color:white;
+    padding: 12px 20px;
+    width:350px;
+    border:none;
+    border-radius:0.3em;
+    outline:none;
+}
+.form-container label{
+    text-align:left;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+.form-container p,a {
+    color:white;
+}
+
+.form-container button{
+    padding:12px;
+    cursor:pointer;
+    margin-top:10px;
+    border:none;
+    border-radius:0.3em
+}
